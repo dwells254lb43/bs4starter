@@ -1,0 +1,43 @@
+body {
+  background: #333;
+  color: #fff;
+  font-family: sans-serif; }
+
+.navbar {
+  border-bottom: #fff 3px solid;
+  opacity: 0.8; }
+
+#home-section {
+  background-image: url("../img/concert.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 600px; }
+  #home-section .home-inner {
+    padding-top: 175px; }
+  #home-section .dark-overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 600px; }
+
+#member-benefits-section {
+  width: 100%;
+  color: #333;
+  padding-top: 30px;
+  min-height: 200px; }
+  #member-benefits-section .benefits-header-text {
+    font-size: 40px; }
+
+#upcoming-bands-section {
+  min-height: 200px; }
+
+footer {
+  border-top: #fff 1px solid;
+  margin-top: 100px;
+  text-align: center;
+  height: 60px;
+  background: #333;
+  padding-top: 20px; }

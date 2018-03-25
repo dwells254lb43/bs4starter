@@ -6,11 +6,190 @@
         <link rel="stylesheet" href="css/font-awesome.min.css">
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/style.css">
-        <title>Bootstrap 4 Starter Pack</title>
+        <title>Code Along Demo</title>
     </head>
 
-    <body>
-        <h1>Bootstrap 4.0.0-beta Starter</h1>
+    <body id="#home">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+          <div class="container">
+            <a href="index.html" class="navbar-brand">Show Stopper</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="#home-section" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#member-benefits-section" class="nav-link">Benefits</a>
+              </li>
+              <li class="nav-item">
+                <a href="#upcoming-bands-section" class="nav-link">Upcoming</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <!--    HOME SECTION    -->
+
+        <header id="home-section" >
+          <div class="dark-overlay">
+            <div class="home-inner">
+              <div class="container">
+                <div class="row text-center text-md-left">
+                  <div>
+                    <h1 class="display-4"><strong>Great Music</strong> at <strong>Great Prices</strong></h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis illum odit esse laborum non beatae iure molestias, maxime doloremque dolor voluptatibus consectetur modi quis repudiandae omnis laboriosam velit incidunt perspiciatis!</p>
+                    <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#joinModal">Join the Rave!</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <!--   MEMBER BENEFITS SECTION  -->
+        <section id="member-benefits-section" class="bg-white">
+          <div class="bg-white">
+            <div class="container">
+              <div class="row">
+                <div class="col text-center">
+                  <p class="lead benefits-header-text">Member Benefits</h1>
+                </div>
+                </div>
+
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="card pb-2 mb-5">
+                    <div class="card-body">
+                      <h5 class="card-title">Personalized Alerts</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">Know when your favorite bands in town</h6>
+                      <p class="card-text lead">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card pb-2 mb-5">
+                    <div class="card-body">
+                      <h5 class="card-title">Early Bird Tickets</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">Be the first to know</h6>
+                      <p class="card-text lead">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card pb-2 mb-5">
+                    <div class="card-body">
+                      <h5 class="card-title">Rewards Program</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">Earn free concerts</h6>
+                      <p class="card-text lead">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--    UPCOMING BANDS    -->
+
+        <section id="upcoming-bands-section">
+          <div class="container">
+            <div class="row">
+              <div class="col text-center">
+                <p class="h1 p-5">Upcoming Events Near You!</p>
+              </div>
+            </div>
+            <div class="row text-center">
+              <div class="col-lg-3 col-sm-6">
+                <div class="card text-dark m-1">
+                  <img class="card-img-top" src="img/band1.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Band 1</h5>
+                    <p class="card-text">Concert Location</p>
+                    <p class="card-text">April 4th, 2018</p>
+                    <a href="#" class="btn btn-primary">Buy Tickets</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="card text-dark m-1">
+                  <img class="card-img-top" src="img/band2.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Band 2</h5>
+                    <p class="card-text">Concert Location</p>
+                    <p class="card-text">April 9th, 2018</p>
+                    <a href="#" class="btn btn-primary">Buy Tickets</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="card text-dark m-1">
+                  <img class="card-img-top" src="img/band3.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Band 3</h5>
+                    <p class="card-text">Concert Location</p>
+                    <p class="card-text">April 14th, 2018</p>
+                    <a href="#" class="btn btn-primary">Buy Tickets</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="card text-dark m-1">
+                  <img class="card-img-top" src="img/band4.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Band 4</h5>
+                    <p class="card-text">Concert Location</p>
+                    <p class="card-text">May 5th, 2018</p>
+                    <a href="#" class="btn btn-primary">Buy Tickets</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>
+
+        <!--  FOOTER SECTION   -->
+
+        <footer>
+          <p>Show Stopper Copyright &copy; 2018 - <a href="#">Contact</a></p>
+        </footer>
+
+        <!--   Join Modal   -->
+        <div class="modal fade" id="joinModal">
+          <div class="modal-dialog">
+            <div class="moda-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="joinModalTitle">Join us!</h5>
+                <button class="close" data-dismiss="modal"><span>&times;</span></button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control">
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control">
+                  </div>
+                  <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control">
+                  </div>
+                  <div class="form-group">
+                    <label for="passwordConfirm">Confirm Password</label>
+                    <input type="password" class="form-control">
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button class="btn btn-primary btn-block"> Submit </button>
+              </div>
+            </div>
+          </div>
+        </div>
 
         <script src="js/jquery.min.js"></script>
         <script src="js/popper.min.js"></script>
