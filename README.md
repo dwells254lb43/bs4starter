@@ -20,4 +20,4 @@ npm install
 npm start
 ```
 
-Files are compiled into /src
+Files are compiled into /src# ShowStopper
