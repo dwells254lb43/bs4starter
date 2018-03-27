@@ -12,7 +12,7 @@ body{
 }
 
 .navbar{
-  border-bottom: $font-color 3px solid;
+  border-bottom: $primary-color 3px solid;
   opacity: 0.8;
 }
 
@@ -45,6 +45,10 @@ body{
 
   .benefits-header-text{
     font-size: 40px;
+  }
+
+  .head-icon{
+    font-size: 5em;
   }
 }
 
